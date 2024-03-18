@@ -1,0 +1,56 @@
+.stop-watch {
+  font-size: 6rem;
+  margin: center;
+}
+label {
+  margin-bottom: 0.5rem;
+}
+input {
+  width: 100px;
+  margin-right: 1rem;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0rem 0.5rem;
+}
+input:hover {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-style: bold;
+}
+
+.watchIcon {
+  margin: auto;
+  width: auto;
+  height: auto;
+  padding: auto;
+  color: gold;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 8px 8px;
+  cursor: pointer;
+  display: flex;
+}
+
+.btn btn-accept btn-lg,
+.btn btn-warning,
+.btn-lg,
+btn btn-danger btn-lg {
+  background: lightyellow;
+  color: red;
+}
